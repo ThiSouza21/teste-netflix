@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap"
+      rel="stylesheet" />
+  </head>
+
+  <header>
+    <div class="container__head">
+      <img class="imagem__logo" src="assets/logo 1.svg" alt="Logo da Netflix" />
+    </div>
+  </header>
+
+  <body>
+    <div class="container">
+      <div class="container__login">
+        <h2 class="container__titulo">Entrar</h2>
+
+        <form class="formulario" id="form">
+          <input
+            type="email"
+            placeholder="Email ou número de telefone"
+            id="email"
+            class="form-email" />
+          <input
+            type="password"
+            placeholder="Senha"
+            id="senha"
+            class="form-senha" />
+          <input
+            type="button"
+            name="Entrar"
+            value="Entrar"
+            class="form-entrar" />
+          <div class="ajuda">
+            <div class="ajuda__elementos">
+              <input type="checkbox" name="lembre" class="form-lembre-se" />
+              <label class="form-lembre-se__secundario" for="lembre"
+                >Lembre-se de mim</label
+              >
+            </div>
+            <a href="#" class="form__ajuda">Precisa de Ajuda</a>
+          </div>
+        </form>
+
+        <p class="container__texto">
+          Novo por aqui?
+          <b><a href="#" class="saiba__mais primario">Assine agora.</a></b>
+        </p>
+        <p class="container__descricao">
+          Esta página é protegida pelo Google reCAPTCHA para garantir que você
+          não é um robô. <a href="#" class="saiba__mais">Saiba mais.</a>
+        </p>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div class="footer__principal">
+      <div class="footer__box">
+        <p class="footer__titulo">Dúvidas? Ligue 0800 591 2876</p>
+
+        <ul class="footer__link">
+          <li class="link__itens">
+            <a href="#" class="item__lista">Perguntas frequentes</a>
+          </li>
+          <li class="link__itens">
+            <a href="#" class="item__lista">Central de Ajuda</a>
+          </li>
+          <li class="link__itens">
+            <a href="#" class="item__lista">Termos de Uso</a>
+          </li>
+          <li class="link__itens">
+            <a href="#" class="item__lista">Privacidade</a>
+          </li>
+          <li class="link__itens">
+            <a href="#" class="item__lista">Preferencias de Cookies</a>
+          </li>
+          <li class="link__itens">
+            <a href="#" class="item__lista">Informações corporativas</a>
+          </li>
+        </ul>
+
+        <select class="select__primario">
+          <option>Português</option>
+          <option>Inglês</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+</html>
